@@ -37,7 +37,7 @@ class PageHeader extends Nerv.Component {
             <div className='logo'>
               <Link to='/'>
                 <img className='logo-img' src={require('../../assets/logo-taro.png')} />
-                <span>Taro UI</span>
+                <span>Taro YMUI</span>
               </Link>
             </div>
             <i className='icon icon-menu nav-icon' onClick={this.toggleMenu} />
@@ -46,7 +46,7 @@ class PageHeader extends Nerv.Component {
             className='nav-right'
             style={{ height: toggle ? '0px' : '100px' }}
           >
-            <ul className='navbar'>
+            {/* <ul className='navbar'>
               <li>
                 <NavLink activeClassName='router-link-active' to='/docs/introduction'>组件</NavLink>
               </li>
@@ -59,7 +59,7 @@ class PageHeader extends Nerv.Component {
               <li>
                 <a href='https://aotu.io/' target='__blank'>关于我们</a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </header>
