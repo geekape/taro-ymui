@@ -24,7 +24,7 @@ npm install -g @tarojs/cli
 然后在项目中安装 Taro UI
 
 ```bash
-npm install taro-ui
+npm install taro-ymui
 ```
 
 ## 使用
