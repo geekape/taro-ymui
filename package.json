@@ -60,7 +60,7 @@
     "src/**/*.d.ts"
   ],
   "author": "yuanmeng",
-  "homepage": "",
+  "homepage": "https://geekape.github.io/taro-ymui",
   "repository": {
     "type": "git",
     "url": "git@github.com:geekape/taro-ymui.git"
